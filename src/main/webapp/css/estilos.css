@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+img{
+	width:300px;
+	height: 200px;
+}
+
+body{
+	background-color: #d5f5e3;
+	margin: 0px;
+	
+}
+
+input[type=submit]{
+	background-color: green;
+	color: white;
+	padding: 8px;
+	border:none;
+}
+
+input[type=reset]{
+	background-color:red;
+	color: white;
+	padding: 8px;
+	border:none;
+}
+
+input[type=button]{
+	background-color: black;
+	color: white;
+	padding: 8px;
+	border:none;
+	
+}
+
+.cor_campos{
+	color: green;	
+}
+
+a:link{
+	text-decoration: none;
+}
+
+.reservas{
+	width:100%;
+	border-collapse: collapse;
+	
+}
+
+.reservas td, .reservas th{
+	border: 1px solid #ddd;
+	padding: 5px;
+	text-align: center
+}
+
+.reservas th{
+	background-color:black;
+	color: white
+}
+
+.reservas tr:hover{
+	background-color: #ddd;
+}
+
